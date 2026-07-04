@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model MakeupStoreMvc.Models.Category
+
+@{
+    ViewData["Title"] = "Kategori Güncelle";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">Kategori Güncelle</h2>
+
+    <form method="post">
+
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Kategori Adı
+            </label>
+
+            <input asp-for="CategoryName"
+                   class="form-control" />
+
+        </div>
+
+        <button class="btn btn-warning">
+            Güncelle
+        </button>
+
+        <a href="/Categories"
+           class="btn btn-secondary">
+            İptal
+        </a>
+
+    </form>
+
+</div>

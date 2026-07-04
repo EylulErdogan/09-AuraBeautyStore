@@ -1,0 +1,123 @@
+﻿@model MakeupStoreMvc.Models.AccountViewModel
+
+<section id="banner" style="background-image:url(/aura-template/images/banner-img2.jpg); background-repeat: no-repeat; background-position: center;">
+    <div class="container padding-medium-2">
+        <div class="hero-content text-center">
+            <h2 class="display-1 text-uppercase text-light mt-5 mb-0">Account</h2>
+
+            <nav class="breadcrumb d-flex justify-content-center">
+                <a class="breadcrumb-item nav-link" href="/Home/Index">Home</a>
+                <a class="breadcrumb-item nav-link" href="#">Pages</a>
+                <span class="breadcrumb-item active" aria-current="page">Account</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="login-tabs">
+    <div class="container padding-medium">
+        <div class="row">
+            <div class="tabs-listing">
+
+                <nav>
+                    <div class="nav nav-tabs d-flex justify-content-center border-dark-subtle mb-3" id="nav-tab" role="tablist">
+                        <button class="nav-link account-tab mx-3 fs-4 border-bottom border-dark-subtle border-0 text-capitalize fw-semibold active"
+                                id="nav-sign-in-tab" data-bs-toggle="tab" data-bs-target="#nav-sign-in"
+                                type="button" role="tab">
+                            Log In
+                        </button>
+
+                        <button class="nav-link account-tab mx-3 fs-4 border-bottom border-dark-subtle border-0 text-capitalize fw-semibold"
+                                id="nav-register-tab" data-bs-toggle="tab" data-bs-target="#nav-register"
+                                type="button" role="tab">
+                            Sign Up
+                        </button>
+                    </div>
+                </nav>
+
+                <div asp-validation-summary="All" class="text-danger text-center my-3"></div>
+
+                <div class="tab-content" id="nav-tabContent">
+
+                    <!-- LOGIN -->
+                    <div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel">
+                        <div class="col-lg-8 offset-lg-2 mt-5">
+
+                            <form asp-action="Login" asp-controller="Account" method="post" id="form1" class="form-group flex-wrap">
+                                <div class="form-input col-lg-12 my-4">
+
+                                    <input asp-for="Login.Email"
+                                           placeholder="Enter email address"
+                                           class="form-control mb-3 p-4" />
+
+                                    <input asp-for="Login.Password"
+                                           placeholder="Enter password"
+                                           class="form-control mb-3 p-4" />
+
+                                    <label class="py-3 d-flex flex-wrap justify-content-between">
+                                        <div>
+                                            <input asp-for="Login.RememberMe" class="d-inline" />
+                                            <span class="label-body">Remember Me</span>
+                                        </div>
+
+                                        <div class="form-text">
+                                            <a href="#" class="text-primary fw-bold">Forgot Password?</a>
+                                        </div>
+                                    </label>
+
+                                    <div class="d-grid my-3">
+                                        <button type="submit" class="btn btn-primary btn-lg">
+                                            Giriş Yap
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- REGISTER -->
+                    <div class="tab-pane fade" id="nav-register" role="tabpanel">
+                        <div class="col-lg-8 offset-lg-2 mt-5">
+
+                            <form asp-action="Register" asp-controller="Account" method="post" id="form2" class="form-group flex-wrap">
+                                <div class="form-input col-lg-12 my-4">
+
+                                    <input asp-for="Register.FullName"
+                                           placeholder="Your full name"
+                                           class="form-control mb-3 p-4" />
+
+                                    <input asp-for="Register.UserName"
+                                           placeholder="Your username"
+                                           class="form-control mb-3 p-4" />
+
+                                    <input asp-for="Register.Email"
+                                           placeholder="Your email address"
+                                           class="form-control mb-3 p-4" />
+
+                                    <input asp-for="Register.Password"
+                                           placeholder="Set your password"
+                                           class="form-control mb-3 p-4" />
+
+                                    <input asp-for="Register.ConfirmPassword"
+                                           placeholder="Retype your password"
+                                           class="form-control mb-3 p-4" />
+
+                                    <div class="d-grid my-3">
+                                        <button type="submit" class="btn btn-primary btn-lg rounded-1">
+                                            Sign Up
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

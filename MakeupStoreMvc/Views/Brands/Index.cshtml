@@ -1,0 +1,40 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model List<MakeupStoreMvc.Models.Brand>
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Marka Listesi</h2>
+        <a href="/Brands/Create" class="btn btn-primary">Marka Ekle</a>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Marka Adı</th>
+                <th>Güncelle</th>
+                <th>Sil</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.BrandName</td>
+                    <td>
+                        <a href="/Brands/Edit/@item.Id" class="btn btn-warning btn-sm">Güncelle</a>
+                    </td>
+                    <td>
+                        <a href="/Brands/Delete/@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

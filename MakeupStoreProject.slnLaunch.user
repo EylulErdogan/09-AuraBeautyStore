@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MakeupStoreApi\\MakeupStoreApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MakeupStoreMvc\\MakeupStoreMvc.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

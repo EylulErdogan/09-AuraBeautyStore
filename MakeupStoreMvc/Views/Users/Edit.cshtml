@@ -1,0 +1,39 @@
+﻿@model MakeupStoreMvc.Models.Users
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Edit User";
+}
+
+<h2 class="mb-4">Edit User</h2>
+
+<form method="post">
+
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+    </div>
+
+    <button class="btn btn-warning">Update</button>
+    <a href="/Users" class="btn btn-secondary">Cancel</a>
+
+</form>

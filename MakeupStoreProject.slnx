@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MakeupStoreApi/MakeupStoreApi.csproj" />
+  <Project Path="MakeupStoreMvc/MakeupStoreMvc.csproj" />
+</Solution>

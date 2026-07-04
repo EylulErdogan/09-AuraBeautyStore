@@ -1,0 +1,66 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model MakeupStoreMvc.Models.Product
+
+@{
+    var categories = ViewBag.Categories as List<MakeupStoreMvc.Models.Category>;
+    var brands = ViewBag.Brands as List<MakeupStoreMvc.Models.Brand>;
+}
+
+<div class="container mt-4">
+
+    <h2>Ürün Güncelle</h2>
+
+    <form method="post">
+
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Ürün Adı</label>
+            <input asp-for="ProductName" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Fiyat</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Stok</label>
+            <input asp-for="Stock" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Resim URL</label>
+            <input asp-for="ImageUrl" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Kategori</label>
+            <select asp-for="CategoryId" class="form-control">
+                <option value="">Kategori Seçiniz</option>
+                @foreach (var item in categories)
+                {
+                    <option value="@item.Id">@item.CategoryName</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Marka</label>
+            <select asp-for="BrandId" class="form-control">
+                <option value="">Marka Seçiniz</option>
+                @foreach (var item in brands)
+                {
+                    <option value="@item.Id">@item.BrandName</option>
+                }
+            </select>
+        </div>
+
+        <button class="btn btn-warning">Güncelle</button>
+        <a href="/Products" class="btn btn-secondary">İptal</a>
+
+    </form>
+
+</div>

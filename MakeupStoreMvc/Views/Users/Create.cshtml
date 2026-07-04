@@ -1,0 +1,42 @@
+﻿@model MakeupStoreMvc.Models.RegisterViewModel
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Add User";
+}
+
+<h2 class="mb-4">Add User</h2>
+
+<form method="post">
+
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label class="form-label">Full Name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Confirm Password</label>
+        <input asp-for="ConfirmPassword" class="form-control" />
+    </div>
+
+    <button class="btn btn-success">Save</button>
+    <a href="/Users" class="btn btn-secondary">Cancel</a>
+
+</form>

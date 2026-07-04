@@ -1,0 +1,22 @@
+﻿@{
+    Layout = "_AdminLayout";
+}
+@model MakeupStoreMvc.Models.Brand
+
+<div class="container mt-4">
+
+    <h2>Marka Ekle</h2>
+
+    <form method="post">
+
+        <div class="mb-3">
+            <label class="form-label">Marka Adı</label>
+            <input asp-for="BrandName" class="form-control" />
+        </div>
+
+        <button class="btn btn-success">Kaydet</button>
+        <a href="/Brands" class="btn btn-secondary">İptal</a>
+
+    </form>
+
+</div>

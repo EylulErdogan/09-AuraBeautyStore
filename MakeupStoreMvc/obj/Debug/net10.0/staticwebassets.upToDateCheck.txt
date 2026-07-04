@@ -1,0 +1,227 @@
+wwwroot\aura-template\about.html
+wwwroot\aura-template\account.html
+wwwroot\aura-template\blog.html
+wwwroot\aura-template\cart.html
+wwwroot\aura-template\checkout.html
+wwwroot\aura-template\contact.html
+wwwroot\aura-template\css\ajax-loader.gif
+wwwroot\aura-template\css\vendor.css
+wwwroot\aura-template\error.html
+wwwroot\aura-template\faqs.html
+wwwroot\aura-template\icomoon\fonts\icomoon.eot
+wwwroot\aura-template\icomoon\fonts\icomoon.svg
+wwwroot\aura-template\icomoon\fonts\icomoon.ttf
+wwwroot\aura-template\icomoon\fonts\icomoon.woff
+wwwroot\aura-template\icomoon\icomoon.css
+wwwroot\aura-template\icomoon\Read Me.txt
+wwwroot\aura-template\icomoon\selection.json
+wwwroot\aura-template\images\background-img.jpg
+wwwroot\aura-template\images\background-img1.jpg
+wwwroot\aura-template\images\banner-img2.jpg
+wwwroot\aura-template\images\banner1.jpg
+wwwroot\aura-template\images\banner2.jpg
+wwwroot\aura-template\images\banner3.jpg
+wwwroot\aura-template\images\blog1.jpg
+wwwroot\aura-template\images\blog2.jpg
+wwwroot\aura-template\images\blog3.jpg
+wwwroot\aura-template\images\blog4.jpg
+wwwroot\aura-template\images\blog5.jpg
+wwwroot\aura-template\images\blog6.jpg
+wwwroot\aura-template\images\category1.jpg
+wwwroot\aura-template\images\category2.jpg
+wwwroot\aura-template\images\category3.jpg
+wwwroot\aura-template\images\chocolat\close.png
+wwwroot\aura-template\images\chocolat\fullscreen-black.png
+wwwroot\aura-template\images\chocolat\fullscreen.png
+wwwroot\aura-template\images\chocolat\left.png
+wwwroot\aura-template\images\chocolat\loader.gif
+wwwroot\aura-template\images\chocolat\right.png
+wwwroot\aura-template\images\logo.png
+wwwroot\aura-template\images\logo1.png
+wwwroot\aura-template\images\logo2.png
+wwwroot\aura-template\images\logo3.png
+wwwroot\aura-template\images\logo4.png
+wwwroot\aura-template\images\logo5.png
+wwwroot\aura-template\images\product-item1.jpg
+wwwroot\aura-template\images\product-item10.jpg
+wwwroot\aura-template\images\product-item11.jpg
+wwwroot\aura-template\images\product-item12.jpg
+wwwroot\aura-template\images\product-item13.jpg
+wwwroot\aura-template\images\product-item14.jpg
+wwwroot\aura-template\images\product-item15.jpg
+wwwroot\aura-template\images\product-item16.jpg
+wwwroot\aura-template\images\product-item2.jpg
+wwwroot\aura-template\images\product-item3.jpg
+wwwroot\aura-template\images\product-item4.jpg
+wwwroot\aura-template\images\product-item5.jpg
+wwwroot\aura-template\images\product-item6.jpg
+wwwroot\aura-template\images\product-item7.jpg
+wwwroot\aura-template\images\product-item8.jpg
+wwwroot\aura-template\images\product-item9.jpg
+wwwroot\aura-template\images\reviewer-1.jpg
+wwwroot\aura-template\images\reviewer-2.jpg
+wwwroot\aura-template\images\reviewer-3.jpg
+wwwroot\aura-template\index.html
+wwwroot\aura-template\js\jquery-1.11.0.min.js
+wwwroot\aura-template\js\plugins.js
+wwwroot\aura-template\js\script.js
+wwwroot\aura-template\readme.txt
+wwwroot\aura-template\shop.html
+wwwroot\aura-template\single-post.html
+wwwroot\aura-template\single-product.html
+wwwroot\aura-template\style.css
+wwwroot\aura-template\styles.html
+wwwroot\aura-template\thank-you.html
+wwwroot\aura-template\whislist.html
+wwwroot\css\admin.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\css\admin.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\favicon.ico
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\js\site.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\css\site.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\css\vendor.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\icomoon\fonts\icomoon.svg
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\icomoon\icomoon.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\icomoon\Read Me.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\icomoon\selection.json
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\readme.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\style.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\about.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\account.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\blog.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\cart.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\checkout.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\contact.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\error.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\faqs.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\index.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\js\jquery-1.11.0.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\js\plugins.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\js\script.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\shop.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\single-post.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\single-product.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\styles.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\thank-you.html
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\9,projem\MakeupStoreProject\MakeupStoreMvc\wwwroot\aura-template\whislist.html
