@@ -1,4 +1,4 @@
-﻿@model List<MakeupStoreMvc.Models.ProductListDto>
+@model List<MakeupStoreMvc.Models.ProductListDto>
 <section id="hero">
     <div class="swiper slideshow">
         <div class="swiper-wrapper">
@@ -115,10 +115,10 @@
                     </div>
                     <div class="cart-concern">
                         <div class="cart-button d-flex justify-content-between align-items-center">
-                            <a href="#" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">
+                            <a href="/Home/ProductDetail/@item.Id" class="btn-wrap cart-link d-flex align-items-center text-capitalize fs-6 ">
                                 Sepete Ekle <i class="icon icon-arrow-io pe-1"></i>
                             </a>
-                            <a href="single-product.html" class="view-btn mt-1">
+                            <a href="/Home/ProductDetail/@item.Id" class="view-btn mt-1">
                                 <i class="icon icon-screen-full"></i>
                             </a>
                             <a href="#" class="wishlist-btn mt-1">
@@ -127,10 +127,10 @@
                         </div>
                     </div>
                     <div class="product-detail d-flex justify-content-between align-items-center mt-2">
-                        <a href="single-product.html">
+                        <a href="/Home/ProductDetail/@item.Id">
                             <h5 class="product-title mb-0">@item.ProductName </h5>
                         </a>
-                        <p class="m-0 fs-5 fw-normal">@item.Price</p>
+                        <p class="m-0 fs-5 fw-normal">@item.Price ₺</p>
                     </div>
                 </div>
             </div>
@@ -150,57 +150,84 @@
 <section id="service" class="padding-medium">
     <div class="container" data-aos="fade-up">
         <div class="row">
+            
             <div class="col-md-3 my-3">
-                <div class="card">
-                    <div>
+                <div class="card border p-4 text-center rounded-3 bg-white h-100">
+                    <div class="mb-3">
                         <iconify-icon class="service-icon text-primary display-4" icon="ci:shopping-cart-02"></iconify-icon>
                     </div>
-                    <h4 class=" text-uppercase py-3 m-0">
-Ücretsiz Teslimat</h3>
-                        <div class="card-text">
-                            <p>Alt Limitsiz ücretsiz kargo</p>
-                        </div>
+                    <h4 class="text-uppercase fw-semibold py-2 m-0 fs-5 text-primary">Ücretsiz Teslimat</h4>
+                    <div class="card-text text-muted">
+                        <p class="mb-0">Alt limitsiz ücretsiz kargo</p>
                     </div>
                 </div>
-                <div class="col-md-3 my-3">
-                    <div class="card">
-                        <div>
-                            <iconify-icon class="service-icon text-primary display-4" icon="tdesign:secured"></iconify-icon>
-                        </div>
-                        <h4 class=" text-uppercase py-3 m-0">
-                            100% ödeme güvencesi</h3>
-                            <div class="card-text">
-                                <p>3D secure ile ödeme güvencesi</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 my-3">
-                        <div class="card">
-                            <div>
-                                <iconify-icon class="service-icon text-primary display-4" icon="la:award"></iconify-icon>
-                            </div>
-                            <h4 class=" text-uppercase py-3 m-0">
-                               Kalite garantisi</h3>
-                                <div class="card-text">
-                                    <p>1. kalite ürünler</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 my-3">
-                            <div class="card">
-                                <div>
-                                    <iconify-icon class="service-icon text-primary display-4" icon="solar:dollar-outline"></iconify-icon>
-                                </div>
-                                <h4 class=" text-uppercase py-3 m-0">
-                                   Günlük İndirimler</h3>
-                                    <div class="card-text">
-                                        <p>Hergün supriz indirimli ürünler</p>
-                                    </div>
-                                </div>
-                            </div>
+            </div>
 
-                        </div>
+            <div class="col-md-3 my-3">
+                <div class="card border p-4 text-center rounded-3 bg-white h-100">
+                    <div class="mb-3">
+                        <iconify-icon class="service-icon text-primary display-4" icon="tdesign:secured"></iconify-icon>
                     </div>
-                </section>
+                    <h4 class="text-uppercase fw-semibold py-2 m-0 fs-5 text-primary">100% Ödeme Güvencesi</h4>
+                    <div class="card-text text-muted">
+                        <p class="mb-0">3D secure ile ödeme güvencesi</p>
+                    </div>
+                </div>
+            </div>
 
-    
+            <div class="col-md-3 my-3">
+                <div class="card border p-4 text-center rounded-3 bg-white h-100">
+                    <div class="mb-3">
+                        <iconify-icon class="service-icon text-primary display-4" icon="la:award"></iconify-icon>
+                    </div>
+                    <h4 class="text-uppercase fw-semibold py-2 m-0 fs-5 text-primary">Kalite Garantisi</h4>
+                    <div class="card-text text-muted">
+                        <p class="mb-0">1. kalite orijinal ürünler</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-3">
+                <div class="card border p-4 text-center rounded-3 bg-white h-100">
+                    <div class="mb-3">
+                        <iconify-icon class="service-icon text-primary display-4" icon="solar:dollar-outline"></iconify-icon>
+                    </div>
+                    <h4 class="text-uppercase fw-semibold py-2 m-0 fs-5 text-primary">Günlük İndirimler</h4>
+                    <div class="card-text text-muted">
+                        <p class="mb-0">Her gün sürpriz indirimli ürünler</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        document.addEventListener("click", function(e) {
+            // Find closest anchor tag starting with #
+            const anchor = e.target.closest('a[href^="#"]');
+            if (anchor) {
+                const targetId = anchor.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    e.preventDefault();
+                    
+                    const offset = 120; // 120px offset for fixed navbar
+                    const bodyRect = document.body.getBoundingClientRect().top;
+                    const elementRect = targetElement.getBoundingClientRect().top;
+                    const elementPosition = elementRect - bodyRect;
+                    const offsetPosition = elementPosition - offset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    </script>
+}

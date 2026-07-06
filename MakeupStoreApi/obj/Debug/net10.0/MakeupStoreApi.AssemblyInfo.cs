@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakeupStoreApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26563bb79fa643c93f80d0a2c87fa78496c6b648")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakeupStoreApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakeupStoreApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

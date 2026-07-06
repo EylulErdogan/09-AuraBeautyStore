@@ -1,0 +1,279 @@
+@model MakeupStoreMvc.Models.ProductListDto
+
+@{
+    ViewData["Title"] = Model.ProductName;
+    var fakeOriginalPrice = Model.Price * 1.4m;
+}
+
+<!-- Banner Section Matched to Template -->
+<section id="banner" style="background-image: url('/aura-template/images/banner-img2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; min-height: 250px; margin-top: 80px;">
+    <div class="container padding-medium-2">
+        <div class="hero-content text-center">
+            <h2 class="display-1 text-uppercase text-light mt-4 mb-0">Ürün Detayı</h2>
+            <nav class="breadcrumb d-flex justify-content-center">
+                <a class="breadcrumb-item nav-link text-white" href="/">Anasayfa</a>
+                <span class="breadcrumb-item active text-white-50" aria-current="page">@Model.ProductName</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- Selling Product Section -->
+<section id="selling-product" style="padding-top: 4rem; padding-bottom: 4rem;">
+    <div class="container">
+        <div class="row g-md-5">
+            
+            <!-- Left Column: Simple Swiper markup that Swiper initializes properly -->
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- product-large-slider -->
+                        <div class="swiper product-large-slider rounded-4 border p-2 bg-white">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center">
+                                    <img src="@Model.ImageUrl" alt="@Model.ProductName" class="img-fluid rounded" style="max-height: 500px; object-fit: contain;" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'500\' height=\'500\' viewBox=\'0 0 500 500\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23fbcfe8\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'100\'%3E💄%3C/text%3E%3C/svg%3E';">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Thumbnails -->
+                    <div class="col-md-12 d-none d-md-flex mt-3">
+                        <div class="swiper product-thumbnail-slider">
+                            <div class="swiper-wrapper d-flex gap-2">
+                                <div class="swiper-slide" style="width: 80px; height: 80px;">
+                                    <img src="@Model.ImageUrl" alt="thumb" class="img-fluid rounded border p-1 bg-white" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'80\' height=\'80\' viewBox=\'0 0 80 80\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23fbcfe8\'/%3E%3C/text%3E%3C/svg%3E';">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Product Details Column -->
+            <div class="col-lg-6">
+                <div class="product-info">
+                    <div class="element-header">
+                        <h2 itemprop="name" class="display-6 fw-bold text-primary mb-2">@Model.ProductName</h2>
+                        <div class="rating-container d-flex gap-1 align-items-center mb-3">
+                            <span class="rating secondary-font d-flex align-items-center gap-1">
+                                <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
+                                <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
+                                <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
+                                <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
+                                <iconify-icon icon="clarity:star-solid" class="text-primary"></iconify-icon>
+                                <span class="ms-1">5.0</span>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="product-price pt-2 pb-3 border-bottom">
+                        <strong class="text-primary display-6">@Model.Price.ToString("C")</strong>
+                        <del class="ms-2 text-muted">@fakeOriginalPrice.ToString("C")</del>
+                    </div>
+                    
+                    <p class="mt-4">
+                        Aura Güzellik Mağazası'nın premium ürün serisinden @Model.ProductName ile güzelliğinizi ve ışıltınızı ortaya çıkarın. Özenle seçilmiş formülü sayesinde cildinize lüks ve doğal bir bakım sunar. Gün boyu kalıcı etkisi ve ipeksi yapısıyla kendinizi özel hissetmenizi sağlar.
+                    </p>
+                    
+                    <form action="/Cart/Add" method="post" id="addToCartForm" class="mt-4">
+                        <input type="hidden" name="productId" value="@Model.Id" />
+                        <input type="hidden" name="color" id="selectedColor" value="Gray" />
+                        <input type="hidden" name="size" id="selectedSize" value="L" />
+
+                        <div class="cart-wrap">
+                            <!-- Color Selector Matched to Template -->
+                            <div class="color-options product-select mb-3">
+                                <h6 class="item-title fw-bold text-dark">Renk:</h6>
+                                <ul class="select-list list-unstyled d-flex gap-2">
+                                    <li class="select-item" data-val="Gray" title="Gray">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 active js-color-btn">Gray</a>
+                                    </li>
+                                    <li class="select-item" data-val="Black" title="Black">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 js-color-btn">Black</a>
+                                    </li>
+                                    <li class="select-item" data-val="Blue" title="Blue">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 js-color-btn">Blue</a>
+                                    </li>
+                                    <li class="select-item" data-val="Red" title="Red">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 disabled js-color-btn">Red</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Size Selector Matched to Template -->
+                            <div class="swatch product-select mb-4">
+                                <h6 class="item-title fw-bold text-dark">Beden:</h6>
+                                <ul class="select-list list-unstyled d-flex gap-2">
+                                    <li data-value="XL" class="select-item">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 js-size-btn">XL</a>
+                                    </li>
+                                    <li data-value="L" class="select-item">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 active js-size-btn">L</a>
+                                    </li>
+                                    <li data-value="M" class="select-item">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 js-size-btn">M</a>
+                                    </li>
+                                    <li data-value="S" class="select-item">
+                                        <a href="#" class="btn btn-outline-primary px-3 py-2 fs-6 js-size-btn">S</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Quantity and Add to Cart Section -->
+                            <div class="product-quantity mt-3 border-top pt-3">
+                                <div class="stock-number text-muted mb-2">
+                                    <em>@Model.Stock adet stokta mevcut</em>
+                                </div>
+                                <div class="d-flex flex-wrap align-items-center gap-3">
+                                    
+                                    <!-- Quantity Input -->
+                                    <div class="input-group product-qty align-items-center" style="width: 130px;">
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-left-minus btn btn-primary p-2 btn-number js-qty-minus" data-type="minus">
+                                                -
+                                            </button>
+                                        </span>
+                                        <input type="text" id="quantity" name="quantity" class="form-control input-number text-center p-2 mx-1" value="1" readonly>
+                                        <span class="input-group-btn">
+                                            <button type="button" class="quantity-right-plus btn btn-primary p-2 btn-number js-qty-plus" data-type="plus">
+                                                +
+                                            </button>
+                                        </span>
+                                    </div>
+                                    
+                                    <!-- Add to Cart Submit Button -->
+                                    <button type="submit" class="btn btn-primary px-4 py-3 text-uppercase fw-bold">
+                                        Sepete Ekle
+                                    </button>
+                                    
+                                    <!-- Wishlist Button -->
+                                    <a href="#" class="btn btn-outline-secondary px-3 py-3 d-flex align-items-center justify-content-center">
+                                        <iconify-icon icon="fluent:heart-28-filled" class="fs-5"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Product Meta details -->
+                    <div class="meta-product d-flex flex-wrap pt-4 border-top mt-4 gap-4">
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title fw-bold no-margin pe-2">SKU:</h6>
+                            <span class="text-muted">AURA-@Model.Id</span>
+                        </div>
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title fw-bold no-margin pe-2">Kategori:</h6>
+                            <span class="text-primary fw-semibold">@Model.CategoryName</span>
+                        </div>
+                        <div class="meta-item d-flex align-items-baseline">
+                            <h6 class="item-title fw-bold no-margin pe-2">Marka:</h6>
+                            <span class="text-primary fw-semibold">@Model.BrandName</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Product Tabs Section Matched to Template -->
+<section class="product-tabs border-top pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="offset-md-1 col-md-10 tabs-listing">
+                <nav>
+                    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                        <button class="nav-link active text-black fw-semibold text-uppercase px-5 py-3 mx-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Detaylar</button>
+                        <button class="nav-link text-black fw-semibold text-uppercase px-5 py-3 mx-3" id="nav-information-tab" data-bs-toggle="tab" data-bs-target="#nav-information" type="button" role="tab" aria-controls="nav-information" aria-selected="false">Kullanım Önerileri</button>
+                        <button class="nav-link text-black fw-semibold text-uppercase px-5 py-3 mx-3" id="nav-shipping-tab" data-bs-toggle="tab" data-bs-target="#nav-shipping" type="button" role="tab" aria-controls="nav-shipping" aria-selected="false">Teslimat & İade</button>
+                        <button class="nav-link text-black fw-semibold text-uppercase px-5 py-3 mx-3" id="nav-review-tab" data-bs-toggle="tab" data-bs-target="#nav-review" type="button" role="tab" aria-controls="nav-review" aria-selected="false">Yorumlar (0)</button>
+                    </div>
+                </nav>
+                <div class="tab-content py-5" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <h5>Ürün Açıklaması</h5>
+                        <p>
+                            @Model.BrandName kalitesiyle sunulan @Model.ProductName, güzellik ve cilt bakım rutininizin vazgeçilmez bir parçası olacak. Günlük kullanım için son derece uygun olan bu ürün, cildinize ihtiyaç duyduğu parlaklığı ve nemi kazandırır.
+                        </p>
+                        <ul>
+                            <li>Doğal ve zenginleştirilmiş özel formül.</li>
+                            <li>Uzun süre kalıcı ve etkili performans.</li>
+                            <li>Tüm cilt tipleri ile uyumlu klinik olarak test edilmiş içerik.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="nav-information" role="tabpanel" aria-labelledby="nav-information-tab">
+                        <h5>En İyi Kullanım Yolu</h5>
+                        <p>
+                            Ürünü temizlenmiş cilde veya hedeflenen bölgeye dairesel hareketlerle masaj yaparak uygulayınız. En iyi sonuçlar için düzenli olarak sabah ve akşam rutinlerinizde kullanılması tavsiye edilir.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-shipping" role="tabpanel" aria-labelledby="nav-shipping-tab">
+                        <h5>İade Politikası</h5>
+                        <p>
+                            Kişisel bakım ve kozmetik ürünlerinde hijyen kuralları gereği, ambalajı açılmamış, kullanılmamış ve hasar görmemiş ürünler teslim tarihinden itibaren 14 gün içinde iade edilebilir.
+                        </p>
+                        <h5>Kargo ve Teslimat</h5>
+                        <p>
+                            Aura Beauty Store üzerinden yapacağınız tüm siparişlerinizde ücretsiz kargo fırsatı sunulmaktadır. Siparişleriniz 24 saat içinde özenle paketlenerek kargoya verilir.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-review" role="tabpanel" aria-labelledby="nav-review-tab">
+                        <div class="text-center py-4">
+                            <p class="text-muted">Bu ürün için henüz yorum yapılmamış. İlk yorumu siz yapın!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Color select event
+            document.querySelectorAll(".js-color-btn").forEach(btn => {
+                btn.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    if(this.classList.contains("disabled")) return;
+                    
+                    document.querySelectorAll(".js-color-btn").forEach(b => b.classList.remove("active"));
+                    this.classList.add("active");
+                    document.getElementById("selectedColor").value = this.innerText.trim();
+                });
+            });
+
+            // Size select event
+            document.querySelectorAll(".js-size-btn").forEach(btn => {
+                btn.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    
+                    document.querySelectorAll(".js-size-btn").forEach(b => b.classList.remove("active"));
+                    this.classList.add("active");
+                    document.getElementById("selectedSize").value = this.innerText.trim();
+                });
+            });
+
+            // Quantity increments
+            const qtyInput = document.getElementById("quantity");
+            const maxStock = @Model.Stock;
+
+            document.querySelector(".js-qty-plus").addEventListener("click", function() {
+                let currentVal = parseInt(qtyInput.value);
+                if (currentVal < maxStock) {
+                    qtyInput.value = currentVal + 1;
+                }
+            });
+
+            document.querySelector(".js-qty-minus").addEventListener("click", function() {
+                let currentVal = parseInt(qtyInput.value);
+                if (currentVal > 1) {
+                    qtyInput.value = currentVal - 1;
+                }
+            });
+        });
+    </script>
+}

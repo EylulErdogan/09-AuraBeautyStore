@@ -1,0 +1,144 @@
+@model List<MakeupStoreMvc.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Alışveriş Sepeti";
+    decimal grandTotal = Model.Sum(x => x.Price * x.Quantity);
+}
+
+<section id="banner" style="background-image:url(/aura-template/images/banner-img2.jpg); background-repeat: no-repeat; background-position: center;">
+    <div class="container padding-medium-2">
+        <div class="hero-content text-center">
+            <h2 class="display-1 text-uppercase text-light mt-5 mb-0">Sepet</h2>
+
+            <nav class="breadcrumb d-flex justify-content-center">
+                <a class="breadcrumb-item nav-link" href="/">Anasayfa</a>
+                <span class="breadcrumb-item active" aria-current="page">Sepetim</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section id="cart">
+    <div class="container padding-medium">
+        
+        @if (Model != null && Model.Any())
+        {
+            <div class="row g-md-5">
+                <!-- Cart Items Left Column -->
+                <div class="col-md-8 pe-md-5">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="card-title text-uppercase border-0">Ürün</th>
+                                <th scope="col" class="card-title text-uppercase border-0">Adet</th>
+                                <th scope="col" class="card-title text-uppercase border-0">Toplam</th>
+                                <th scope="col" class="card-title text-uppercase border-0"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                var itemTotal = item.Price * item.Quantity;
+                                <tr>
+                                    <td scope="row" class="py-4 border-0">
+                                        <div class="cart-info d-flex flex-wrap align-items-center">
+                                            <div class="col-lg-3 col-md-4 col-sm-4">
+                                                <div class="card-image">
+                                                    <img src="@item.ImageUrl" alt="@item.ProductName" class="img-fluid rounded" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'70\' height=\'70\' viewBox=\'0 0 70 70\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23fbcfe8\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'20\'%3E💄%3C/text%3E%3C/svg%3E';">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 col-md-8 col-sm-8">
+                                                <div class="card-detail ps-3">
+                                                    <h5 class="card-title fw-bold">
+                                                        <a href="/Home/ProductDetail/@item.ProductId" class="text-decoration-none text-dark">@item.ProductName</a>
+                                                    </h5>
+                                                    <div class="text-muted small mt-1">
+                                                        <span>Renk: @item.Color</span> | <span>Beden: @item.Size</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                    <!-- Quantity -->
+                                    <td class="py-4 align-middle border-0">
+                                        <div class="d-flex align-items-center">
+                                            <span class="fw-semibold">@item.Quantity Adet</span>
+                                        </div>
+                                    </td>
+
+                                    <!-- Price / Total -->
+                                    <td class="py-4 align-middle border-0">
+                                        <div class="total-price">
+                                            <span class="secondary-font fw-medium text-primary">@itemTotal.ToString("C")</span>
+                                        </div>
+                                    </td>
+
+                                    <!-- Remove Button -->
+                                    <td class="py-4 align-middle border-0">
+                                        <div class="cart-remove">
+                                            <a href="/Cart/Remove?productId=@item.ProductId&color=@item.Color&size=@item.Size" title="Sepetten Çıkar" class="text-danger">
+                                                <svg width="24" height="24">
+                                                    <use xlink:href="#trash"></use>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    
+                    <div class="mt-4">
+                        <a href="/" class="btn btn-outline-dark px-4 py-2 text-uppercase fs-6">
+                            ← Alışverişe Devam Et
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Cart Totals (Matched to template design) -->
+                <div class="col-md-4">
+                    <div class="cart-totals mt-5 mt-lg-0 p-4 border rounded-3 bg-light">
+                        <h2 class="pb-4 fw-bold">Sepet Toplamı</h2>
+                        
+                        <div class="total-price pb-4">
+                            <table class="table">
+                                <tbody>
+                                    <tr class="subtotal border-0">
+                                        <th class="border-0">Ara Toplam</th>
+                                        <td class="border-0 text-end">@grandTotal.ToString("C")</td>
+                                    </tr>
+                                    <tr class="shipping border-0">
+                                        <th class="border-0">Kargo</th>
+                                        <td class="border-0 text-end text-success fw-semibold">Ücretsiz / Free</td>
+                                    </tr>
+                                    <tr class="order-total border-top">
+                                        <th class="py-3 border-0 fw-bold fs-5">Genel Toplam</th>
+                                        <td class="py-3 border-0 text-end fw-bold fs-5 text-primary">@grandTotal.ToString("C")</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <form action="/Cart/Checkout" method="post">
+                            <button type="submit" class="btn btn-dark w-100 py-3 text-uppercase fw-bold">
+                                Ödemeye Geç (Checkout)
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="text-center py-5 border rounded-3 bg-white shadow-sm my-4">
+                <div class="display-1 mb-3">🛍️</div>
+                <h4 class="fw-bold text-muted">Sepetiniz henüz boş.</h4>
+                <p class="text-muted mb-4">Aura Güzellik Mağazası'ndaki yüzlerce ürünü keşfedip sepetinize eklemeye hemen başlayın!</p>
+                <a href="/" class="btn btn-primary px-5 py-3 rounded-pill fw-bold text-uppercase shadow">
+                    Alışverişe Başla
+                </a>
+            </div>
+        }
+    </div>
+</section>

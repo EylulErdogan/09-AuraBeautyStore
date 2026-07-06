@@ -1,0 +1,162 @@
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Yönetim Paneli";
+
+    var lowStockProducts = ViewBag.LowStockProducts as List<MakeupStoreMvc.Models.ProductListDto>;
+    var lastProducts = ViewBag.LastProducts as List<MakeupStoreMvc.Models.ProductListDto>;
+}
+
+<!-- Welcome Banner -->
+<div class="dashboard-hero mb-4">
+    <div>
+        <span class="dashboard-label">Aura Beauty Store</span>
+        <h1>Tekrar Hoş Geldiniz ✨</h1>
+        <p>Tüm ürünlerinizi, markalarınızı, kategorilerinizi ve kullanıcılarınızı tek bir şık panelden yönetin.</p>
+    </div>
+
+    <a href="/Products/Create" class="hero-btn">+ Ürün Ekle</a>
+</div>
+
+<!-- Stats Counter Grid -->
+<div class="row g-4 mb-4">
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card stat-pink">
+            <div>
+                <p>Toplam Ürün</p>
+                <h2>@ViewBag.ProductCount</h2>
+            </div>
+            <div class="stat-icon">💄</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card stat-purple">
+            <div>
+                <p>Kategoriler</p>
+                <h2>@ViewBag.CategoryCount</h2>
+            </div>
+            <div class="stat-icon">🗂️</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card stat-orange">
+            <div>
+                <p>Markalar</p>
+                <h2>@ViewBag.BrandCount</h2>
+            </div>
+            <div class="stat-icon">🏷️</div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-md-6">
+        <div class="stat-card stat-dark">
+            <div>
+                <p>Kullanıcılar</p>
+                <h2>@ViewBag.UserCount</h2>
+            </div>
+            <div class="stat-icon">👥</div>
+        </div>
+    </div>
+</div>
+
+<!-- Details & Actions Section -->
+<div class="row g-4">
+    <!-- Latest Products Widget -->
+    <div class="col-lg-7">
+        <div class="glass-card h-100">
+            <div class="section-title">
+                <div>
+                    <h4>Son Eklenen Ürünler</h4>
+                    <p>En son eklenen makyaj ve güzellik ürünleri</p>
+                </div>
+                <a href="/Products">Tümünü Gör</a>
+            </div>
+
+            <div class="product-list">
+                @if (lastProducts != null && lastProducts.Any())
+                {
+                    foreach (var item in lastProducts)
+                    {
+                        <div class="product-row">
+                            <img src="/images/@item.ImageUrl" alt="@item.ProductName" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'65\' height=\'65\' viewBox=\'0 0 65 65\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23fbcfe8\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'24\'%3E💄%3C/text%3E%3C/svg%3E';" />
+
+                            <div class="flex-grow-1">
+                                <h6>@item.ProductName</h6>
+                                <span>@item.BrandName • @item.CategoryName</span>
+                            </div>
+
+                            <strong>@item.Price ₺</strong>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="text-center py-4 text-muted">
+                        <span>Eklenmiş ürün bulunmamaktadır.</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Stock Status & Quick Actions -->
+    <div class="col-lg-5">
+        <div class="d-flex flex-column h-100 gap-4">
+            
+            <!-- Low Stock Alerts Widget -->
+            <div class="glass-card warning-card flex-grow-1">
+                <div class="section-title">
+                    <div>
+                        <h4>Kritik Stok Uyarısı</h4>
+                        <p>Stok seviyesi azalan ürünler</p>
+                    </div>
+                </div>
+
+                <div class="stock-list">
+                    @if (lowStockProducts != null && lowStockProducts.Any())
+                    {
+                        foreach (var item in lowStockProducts)
+                        {
+                            var percent = item.Stock > 100 ? 100 : item.Stock;
+
+                            <div class="stock-item">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <span>@item.ProductName</span>
+                                    <b>@item.Stock adet kaldı</b>
+                                </div>
+
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:@percent%"></div>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="text-center py-4 text-muted">
+                            <span>Kritik stok seviyesinde ürün bulunmamaktadır. 🎉</span>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Quick Action Buttons -->
+            <div class="quick-actions">
+                <a href="/Categories/Create">
+                    <span class="fs-4">🗂️</span>
+                    <span>Kategori Ekle</span>
+                </a>
+                <a href="/Brands/Create">
+                    <span class="fs-4">🏷️</span>
+                    <span>Marka Ekle</span>
+                </a>
+                <a href="/Users/Create">
+                    <span class="fs-4">👥</span>
+                    <span>Kullanıcı Ekle</span>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+</div>

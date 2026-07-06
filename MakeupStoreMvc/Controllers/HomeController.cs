@@ -31,6 +31,27 @@ namespace MakeupStoreMvc.Controllers
             return View(values);
         }
 
+        public async Task<IActionResult> ProductDetail(int id)
+        {
+            var response = await _httpClient.GetAsync("Products/GetProducts");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var jsonData = await response.Content.ReadAsStringAsync();
+            var values = JsonConvert.DeserializeObject<List<ProductListDto>>(jsonData);
+            var product = values?.FirstOrDefault(x => x.Id == id);
+
+            if (product == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            return View(product);
+        }
+
         public IActionResult Privacy()
         {
             return View();

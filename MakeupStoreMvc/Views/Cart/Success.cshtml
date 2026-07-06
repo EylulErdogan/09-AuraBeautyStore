@@ -1,0 +1,90 @@
+@model MakeupStoreMvc.Models.OrderSuccessViewModel
+
+@{
+    ViewData["Title"] = "Sipariş Başarıyla Alındı";
+}
+
+<!-- Success Banner -->
+<section id="banner" style="background-image: url('/aura-template/images/banner-img2.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; min-height: 200px; margin-top: 80px;">
+    <div class="container padding-medium-2">
+        <div class="hero-content text-center">
+            <h2 class="display-1 text-uppercase text-light mt-4 mb-0">Teşekkürler</h2>
+            <p class="text-white-50 fs-5 mt-2">Siparişiniz başarıyla alındı ve hazırlanmaya başlandı.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Success Details Section -->
+<section class="order-success-section" style="padding-top: 5rem; padding-bottom: 5rem; background-color: #fffbed;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                
+                <!-- Success Card -->
+                <div class="card border-0 p-5 rounded-4 shadow-sm bg-white text-center mb-5">
+                    
+                    <!-- Animated Checkmark Icon -->
+                    <div class="d-flex justify-content-center mb-4">
+                        <div class="bg-success-subtle text-success rounded-circle d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border: 4px solid #d1e7dd;">
+                            <iconify-icon icon="fluent:checkmark-circle-24-filled" class="display-3 text-success"></iconify-icon>
+                        </div>
+                    </div>
+                    
+                    <h3 class="fw-bold text-dark mb-2">Harika! Siparişiniz Alındı</h3>
+                    <p class="text-muted mb-4">Aura Beauty Store'u tercih ettiğiniz için teşekkür ederiz. Sipariş özetiniz aşağıda listelenmiştir.</p>
+                    
+                    <!-- Order Metadata Info -->
+                    <div class="row g-3 justify-content-center border-top border-bottom py-3 mb-4 text-start">
+                        <div class="col-sm-6 col-md-4">
+                            <span class="text-muted d-block small">Sipariş Numarası</span>
+                            <strong class="text-dark fs-5">@Model.OrderNumber</strong>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <span class="text-muted d-block small">Toplam Tutar</span>
+                            <strong class="text-primary fs-5">@Model.TotalAmount.ToString("C")</strong>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <span class="text-muted d-block small">Ödeme Durumu</span>
+                            <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 rounded-pill mt-1">
+                                Başarılı / Onaylandı
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <!-- Ordered Items List -->
+                    <div class="text-start">
+                        <h5 class="fw-bold mb-3 text-dark">Sipariş Edilen Ürünler</h5>
+                        <div class="list-group list-group-flush rounded border mb-4">
+                            @foreach (var item in Model.Items)
+                            {
+                                var itemTotal = item.Price * item.Quantity;
+                                <div class="list-group-item d-flex align-items-center justify-content-between py-3">
+                                    <div class="d-flex align-items-center gap-3">
+                                        <img src="@item.ImageUrl" style="width: 50px; height: 50px; object-fit: cover;" class="rounded border" onerror="this.onerror=null; this.src='data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'50\' height=\'50\' viewBox=\'0 0 50 50\'%3E%3Crect width=\'100%25\' height=\'100%25\' fill=\'%23fbcfe8\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'14\'%3E💄%3C/text%3E%3C/svg%3E';" />
+                                        <div>
+                                            <h6 class="mb-0 fw-bold text-dark">@item.ProductName</h6>
+                                            <small class="text-muted">Renk: @item.Color | Beden: @item.Size | Adet: @item.Quantity</small>
+                                        </div>
+                                    </div>
+                                    <strong class="text-dark">@itemTotal.ToString("C")</strong>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    
+                    <!-- Actions -->
+                    <div class="d-flex justify-content-center gap-3 mt-3">
+                        <a href="/" class="btn btn-primary px-4 py-3 text-uppercase fw-bold">
+                            Alışverişe Devam Et
+                        </a>
+                        <button onclick="window.print();" class="btn btn-outline-secondary px-4 py-3 text-uppercase fw-bold d-flex align-items-center gap-2">
+                            <iconify-icon icon="fluent:print-24-filled" class="fs-5"></iconify-icon> Yazdır
+                        </button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>

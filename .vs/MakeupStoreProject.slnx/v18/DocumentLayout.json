@@ -1,62 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\",
+  "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\models\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\brands\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\09-aurabeautystore\\makeupstoremvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|c:\\users\\eylul\\desktop\\softito projelerim ve gerekli kodlar\\9,projem\\makeupstoreproject\\makeupstoremvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5053DDF6-90E0-D7F3-D17D-67A7FBA40071}|MakeupStoreMvc\\MakeupStoreMvc.csproj|solutionrelative:makeupstoremvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MakeupStoreDb/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -69,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 221,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,36 +101,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAADYAAACAAAAAAAAAAA==",
+              "ViewState": "AgIAANkAAAAAAAAAAAAwwOUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-01T20:43:25.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MakeupStoreMvc\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T20:42:55.488Z"
+              "WhenOpened": "2026-07-01T20:42:55.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AccountViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Models\\AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Models\\AccountViewModel.cs",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Models\\AccountViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Models\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Models\\AccountViewModel.cs",
               "RelativeToolTip": "MakeupStoreMvc\\Models\\AccountViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Brands\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -134,11 +151,89 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAwFsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-30T12:02:18.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MakeupStoreMvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-30T12:04:31.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MakeupStoreMvc\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T07:24:10.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "MakeupStoreMvc\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAGkBAAAAAAAAAADwv5cCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-06T06:13:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MakeupStoreMvc\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:07:19.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MakeupStoreMvc\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwKEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T06:07:35.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Brands\\Index.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwCcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -146,11 +241,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Brands\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -158,11 +253,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Categories\\Create.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAuwCUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -170,11 +265,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Categories\\Edit.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAAuwCcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -182,11 +277,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Categories\\Index.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAuwD0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -194,11 +289,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAwwB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -206,23 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MakeupStoreMvc\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-30T12:04:31.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Create.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Products\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Create.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Products\\Create.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAD8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -230,23 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "MakeupStoreMvc\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-30T12:02:18.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
               "RelativeDocumentMoniker": "MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Desktop\\Softito Projelerim ve gerekli kodlar\\9,projem\\MakeupStoreProject\\MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\09-AuraBeautyStore\\MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
               "RelativeToolTip": "MakeupStoreMvc\\Views\\Products\\Edit.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAAEEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -254,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "dbo.Products.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MakeupStoreDb/True/SqlTable/dbo.Products.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MakeupStoreDb/True/SqlTable/dbo.Products.sql",
