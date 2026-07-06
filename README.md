@@ -25,21 +25,32 @@ A premium beauty and cosmetics eCommerce application built using ASP.NET Core MV
 
 ---
 
+## Home Banner
+
+![Home](images/home2.png)
+
+---
+## Products List
+
+![Home](images/product-list.png)
+
+---
+
 ## Product Detail
 
-![ProductDetail](images/product_detail.png)
+![ProductDetail](images/product-detail.png)
 
 ---
 
 ## Shopping Cart
 
-![Cart](images/cart.png)
+![Cart](images/checkout.png)
 
 ---
 
 ## Order Success Page
 
-![OrderSuccess](images/order_success.png)
+![OrderSuccess](images/thankyou.png)
 
 ---
 
